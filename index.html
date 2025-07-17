@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RecipeQuest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>RecipeQuest</h1>
+    </header>
+    <main>
+      <section id="hero">
+        <h2>Find Recipes with Ingredients You Already Have!</h2>
+        <p>
+          Discover delicious recipes using the ingredients you have at home.
+          Simply enter the ingredients you want to use, separated by commas, and
+          start exploring a variety of dishes tailored to your pantry!
+        </p>
+      </section>
+      <section id="search-section">
+        <input
+          type="text"
+          id="ingredient-input"
+          placeholder="Enter ingredients..."
+        />
+        <button id="search-button">Search</button>
+      </section>
+      <section id="random-section"></section>
+      <section id="results-section">
+        <!-- Recipe cards will be dynamically inserted here -->
+      </section>
+      <section id="instructions-section" style="display: none">
+        <!-- Detailed instructions will be displayed here -->
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
