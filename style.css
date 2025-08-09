@@ -141,7 +141,7 @@ main {
   color: #333;
 }
 
-/* CSS for the popup card container */
+
 .popup-card-container {
   display: flex;
   justify-content: center;
@@ -155,7 +155,7 @@ main {
   z-index: 1000;
 }
 
-/* CSS for the popup card */
+
 .popup-card {
   width: 60%;
   max-width: 400px;
@@ -201,3 +201,4 @@ main {
   margin-top: 20px;
   animation: fadeOut 5s forwards;
 }
+
